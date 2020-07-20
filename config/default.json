@@ -1,0 +1,3 @@
+{
+    "mongoUrl" :"mongodb+srv://gagan123:gagan123@backend.yf8ec.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}
