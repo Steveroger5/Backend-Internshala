@@ -19,6 +19,10 @@ const BookmarkSchema = mongoose.Schema({
         type: String,
        required:true
     },
+    Publisher:{
+        type:String,
+        required:true
+    },
     Tags: [{
         type: String,
         required: true

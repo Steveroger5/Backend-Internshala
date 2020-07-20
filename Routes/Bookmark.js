@@ -9,6 +9,7 @@ router.post('/',async function(req,response){
     const Link = req.body.link
     const Title = req.body.title
     const Tags = req.body.tags
+    const Publisher = req.body.publisher
     const now = new Date()
 
 
@@ -20,7 +21,8 @@ router.post('/',async function(req,response){
             Title,
             Tags,
             Time_Created,
-            Time_Updated
+            Time_Updated,
+            Publisher
         })
         await newbookmark.save()
         response.send("Bookmark Added successfully!")
